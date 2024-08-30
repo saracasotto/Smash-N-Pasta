@@ -1,0 +1,274 @@
+{
+  "Starters": [
+    { "id": "starter-1",
+      "product_name": "Classic Supplì",
+      "price": "3.50€",
+      "price2": "",
+      "description": "Fried rice balls with meat ragù sauce, tomato, and mozzarella cheese filling.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    },
+    { "id": "starter-2",
+      "product_name": "Supplì Cacio & Pepe",
+      "price": "4.00€",
+      "price2": "",
+      "description": "Fried rice balls filled with a creamy mix of pecorino cheese and black pepper.",
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "id": "starter-3",
+      "product_name": "Potato and Provola Croquettes",
+      "price": "3.50€",
+      "price2": "",
+      "description": "Crispy fried potato croquettes filled with melted provolone cheese, a perfect delight for snacking or pairing.",
+      "allergens": ["Gluten", "Dairy"]
+    },
+    { 
+      "id": "starter-4",
+      "product_name": "Pasta Omelette",
+      "price": "4.00€",
+      "price2": "",
+      "description": "Crispy Fried Pasta with béchamel sauce, peas, and ham.",
+      "allergens": ["Gluten", "Dairy", "Eggs", "Meat"]
+    },
+    { "id": "starter-5",
+      "product_name": "Zucchini Flower with ricotta and scamorza",
+      "price": "7.00€",
+      "price2": "",
+      "description": "Fried zucchini flower stuffed with ricotta and scamorza cheese.",
+      "allergens": ["Gluten", "Dairy"]
+    },
+    { "id": "starter-6",
+      "product_name": "Italian Fried Mix Plate",
+      "price": "30.00€",
+      "price2": "",
+      "description": "Suppli x2, cacio & pepe x2, croquettes x2, fried pasta x2, zucchini flower x2.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    }
+  ],
+
+  "Chicken Strips": [
+    { "id": "chicken-1",
+      "product_name": "Barbecue",
+      "price": "7.00€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Possible traces of gluten"]
+    },
+    {  "id": "chicken-2",
+      "product_name": "Truffle Mayo & Parmesan",
+      "price": "7.00€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy", "Eggs"]
+    },
+    { "id": "chicken-3",
+      "product_name": "Honey & Mustard",
+      "price": "7.00€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Mustard"]
+    },
+    { "id": "chicken-4",
+      "product_name": "Bacon, Mayo & Cheese",
+      "price": "7.00€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy", "Eggs", "Meat"]
+    },
+    { "id": "chicken-5",
+      "product_name": "Cacio & Pepe",
+      "price": "7.00€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy", "Gluten"]
+    }
+  ],
+
+  "Smash Burgers": [
+    {
+      "id": "burger-1",
+      "product_name": "Carbo Smash",
+      "price": "11.50€",
+      "price2": "Double meat 14.00€",
+      "description": "Black carbon bread, matured meat hamburger, double American cheese, carbon cream, diced guanciale, grated pecorino.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    },
+    {  "id": "burger-2",
+      "product_name": "The King",
+      "price": "9.50€",
+      "price2": "Double meat 12.50€",
+      "description": "Matured meat hamburgers, lettuce, double American cheese, tomato, pickles, and big smash sauce.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    },
+    { "id": "burger-3",
+      "product_name": "Oklahoma",
+      "price": "8.50€",
+      "price2": "Double meat 11.50€",
+      "description": "Smashed patty with onion, double American cheese, pickles, special sauce.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    },
+    { "id": "burger-4",
+      "product_name": "Bacon & Bacon",
+      "price": "9.00€",
+      "price2": "Double meat 12.00€",
+      "description": "Smashed hamburger with caramelized onion, bacon, bacon jam, American cheese, and Edam cheese.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    },
+    { "id": "burger-5",
+      "product_name": "The Italian",
+      "price": "8.50€",
+      "price2": "Double meat 11.50€",
+      "description": "Matured hamburger, provolone cheese, lamb's lettuce, vinaigrette sauce, sun-dried tomato, and special sauce.",
+      "allergens": ["Gluten", "Dairy"]
+    },
+    { "id": "burger-6",
+      "product_name": "Bello de Nonna",
+      "price": "11.00€",
+      "price2": "Double meat 14.00€",
+      "description": "Matured beef burger, scamorza cheese, fried eggplant with tomato sauce, and pasta tortilla.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    },
+    { "id": "burger-7",
+      "product_name": "Veggie Smashy",
+      "price": "8.50€",
+      "price2": "",
+      "description": "Homemade chickpea patty, fresh salad, juicy tomatoes, and sticky cheese, finished with a tasty special sauce.",
+      "allergens": ["Dairy"]
+    }
+  ],
+
+  "Fries": [
+      {
+        "product_name": "Fries",
+        "price": "2.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Possible traces of gluten"]
+      },
+      {
+        "product_name": "Bacon & Cheese fries",
+        "price": "5.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Dairy", "Meat"]
+      },
+      {
+        "product_name": "Mexican",
+        "price": "5.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Possible traces of gluten"]
+      },
+      {
+        "product_name": "Truffle Mayo & Parmesan",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Dairy", "Eggs"]
+      }
+    ],
+
+  "Fresh Pasta": [
+    {
+      "product_name": "Tonnarelli all’Amatriciana",
+      "price": "9.50€",
+      "price2": "",
+      "description": "Homemade rigatoni pasta served with a classic Amatriciana sauce made with tomatoes, pecorino cheese, and guanciale.",
+      "allergens": ["Gluten", "Dairy", "Meat"]
+    },
+    {
+      "product_name": "Tonnarelli Carbonara",
+      "price": "9.50€",
+      "price2": "",
+      "description": "Homemade fresh pasta served with a creamy carbonara sauce made with eggs, pecorino cheese, guanciale, and black pepper.",
+      "allergens": ["Gluten", "Dairy", "Eggs", "Meat"]
+    },
+    {
+      "product_name": "Casarecce Pesto alla Genovese",
+      "price": "9.50€",
+      "price2": "",
+      "description": "Homemade casarecce pasta with Genovese pesto sauce, made with fresh basil, pine nuts, garlic, parmesan cheese, and olive oil.",
+      "allergens": ["Gluten", "Nuts", "Dairy"]
+    },
+    {
+      "product_name": "Tonnarelli Tomato & Basil",
+      "price": "9.50€",
+      "price2": "",
+      "description": "Enjoy our delicious homemade tonnarelli pasta served with a tasty tomato and basil sauce.",
+      "allergens": ["Gluten"]
+    },
+    {
+      "product_name": "Fettuccine Ragu Bolognese",
+      "price": "9.50€",
+      "price2": "",
+      "description": "Our fettuccine is freshly made at home, perfectly tender, and combines wonderfully with our rich Bolognese sauce.",
+      "allergens": ["Gluten", "Meat"]
+    },
+    {
+      "product_name": "Gnocchi alla Sorrentina",
+      "price": "11.00€",
+      "price2": "",
+      "description": "Delight yourself with our delicious homemade potato gnocchi, served with a traditional Sorrento-style sauce.",
+      "allergens": ["Gluten", "Dairy"]
+    }
+  ],
+
+  "Desserts": [
+    {
+      "product_name": "Tiramisu",
+      "price": "5.50€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy", "Eggs", "Gluten"]
+    },
+    {
+      "product_name": "Sicilian Cannolo",
+      "price": "6.50€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy", "Gluten"]
+    },
+    {
+      "product_name": "American Brownie",
+      "price": "6.50€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy", "Gluten", "Nuts"]
+    },
+    {
+      "product_name": "Cheesecake",
+      "price": "6.50€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy", "Gluten"]
+    },
+    {
+      "product_name": "Cappuccino",
+      "price": "2.00€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy"]
+    },
+    {
+      "product_name": "Expresso",
+      "price": "1.20€",
+      "price2": "",
+      "description": "",
+      "allergens": []
+    },
+    {
+      "product_name": "Americano",
+      "price": "2.00€",
+      "price2": "",
+      "description": "",
+      "allergens": []
+    },
+    {
+      "product_name": "Cortado",
+      "price": "1.50€",
+      "price2": "",
+      "description": "",
+      "allergens": ["Dairy"]
+    }
+  ]
+}

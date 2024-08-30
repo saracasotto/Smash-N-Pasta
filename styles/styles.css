@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+    --title: white;
+    --background: black;
+    --links: rgba(255, 255, 255, 0.9);
+    --text: rgba(255, 255, 255, 0.8);
+    --main: rgb(203, 2, 2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior:smooth;
+}
+
+header {
+    height: 6vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--background)
+}
+
+.nav-link, .navbar-brand,
+.nav-link:hover, .nav-link:focus{
+    color: var(--links) !important;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+.navbar i{
+    color: var(--text);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+.hero-container {
+    height: 94vh;
+    padding-top: 10vh;
+    background: url(../assets/hero-img.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    color: var(--title);
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+
+button {
+    background-color: var(--main);
+    color: var(--links);
+    border: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 0.3em 0.6em;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.about-container{
+    height: 80vh;
+    padding-top: 10vh;
+}
+
+
+.about-container .row {
+    display: flex;
+    align-items: center;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.left-pic, .right-pic {
+    width: 200px;
+    height: 300px;
+}
+
+.left-pic {
+    background: url(../assets/pesto.jpeg);
+    background-size: contain;
+    transform: translateY(-30%);
+
+}
+
+.right-pic {
+    background: url(../assets/burger.jpeg);
+    background-size: contain;
+    transform: translateY(30%);
+}
+
+.description {
+    height: 100%;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer {
+    height: 20vh;
+    color: var(--links);    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main);
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.3em;
+}
+
+footer p:first-of-type{
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.6em;
+
+}
+
+.menu-container {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+
+
+#menu-list a{
+    text-decoration: none;
+}
+
+#menu .category {
+    padding-top: 10vh;
+}
+
+#menu img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-name {
+    text-decoration: underline;
+}
+
+.product-description {
+    font-size: 0.9em;
+}
+
+.product-price {
+    font-weight: 500;
+    color: greenyellow;
+}
+
+.allergens {
+    font-style: italic;
+}
+
+
+button.back-to-top {
+    position: sticky;
+    bottom: 4vh;
+    left: 43%;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    header {
+        position: static;
+    }
+
+    .hero-container {
+        height: 500px;
+    }
+
+    .hero-container h1, 
+    .hero-container button{
+        font-size: 1em;
+    }
+
+    .about-container {
+        height: auto;
+        padding-top: 2em;
+    }
+
+    .pics, .description {
+        margin-bottom: 2em;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 992px ) {
+    .pics >* {
+        height: 150px;
+        width: 90px;
+        background-size: cover;
+        transform: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+    footer {
+        font-size: 0.8em;
+    }
+}
