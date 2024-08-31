@@ -1,38 +1,40 @@
-// Carica il JSON dal file esterno
-fetch('./data/menu.json')
-  .then(response => response.json())
-  .then(menu => {
-    generateMenu(menu);
-  })
-  .catch(error => console.error('Error loading menu:', error));
+document.addEventListener("DOMContentLoaded", function () {
+    const userLang = navigator.language || navigator.userLanguage;
+    const lang = userLang.startsWith("es") ? "es" : userLang.startsWith("it") ? "it" : "en";
+    const jsonFile = `./data/${lang}.json`;
 
-  function generateMenu(menu) {
-    const menuContainer = document.getElementById('menu');
-  
-    for (const category in menu) {
-      let categoryHTML = `<div id="${category}" class="category">
-                            <h3>${category}</h3>`;
-      
-      // Aggiungi i prodotti alla categoria
-      menu[category].forEach(product => {
-        categoryHTML += `
-          <div class="d-flex position-relative mt-3">
-            <img src="./assets/${product.id}.jpg" class="flex-shrink-0 me-3" alt="${product.product_name}">
-            <div>
-              <h5 class="product-name mt-0">${product.product_name}</h5>
-              <p class="product-description">${product.description}</p>
-              <p class="product-price">${product.price}</p>
-              <p class="product-price">${product.price2}</p>
-              <p class="allergens">${product.allergens.join(', ')}</p>
-            </div>
-          </div>`;
-      });
-  
-      // Chiudi il div della categoria
-      categoryHTML += `</div>`;
-  
-      // Aggiungi il contenuto della categoria al contenitore principale
-      menuContainer.innerHTML += categoryHTML;
-    }
-  }
-  
+    document.documentElement.lang = lang; // Aggiorna il tag <html> con la lingua giusta
+
+    fetch(jsonFile)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            document.querySelector(".hero-container h1").textContent = data.heroTitle;
+            document.querySelector(".hero-container button").textContent = data.bookNowBtn;
+            document.querySelector(".description h2").textContent = data.aboutTitle;
+
+            const aboutDesc = document.querySelector(".description p");
+            aboutDesc.innerHTML = `
+                ${data.aboutDescription.part1}
+                <br /><br />
+                <i>${data.aboutDescription.qualitySmashburgers}</i><br />
+                ${data.aboutDescription.smashDescription}
+                <br /><br />
+                <i>${data.aboutDescription.handmadePasta}</i><br />
+                ${data.aboutDescription.pastaDescription}
+            `;
+
+            document.querySelector("footer p").innerHTML = data.contactInfo;
+
+            const navItems = document.querySelectorAll(".nav-link");
+            navItems[0].textContent = data.navHome;
+            navItems[1].textContent = data.navAbout;
+            navItems[2].textContent = data.navContact;
+            navItems[3].textContent = data.navMenu;
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+});
