@@ -1,0 +1,290 @@
+{
+    "Antipasti": [
+      {
+        "id": "starter-1",
+        "product_name": "Supplì Classico",
+        "price": "3.50€",
+        "price2": "",
+        "description": "Palline di riso fritte con ragù di carne, pomodoro e ripieno di mozzarella.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      },
+      {
+        "id": "starter-2",
+        "product_name": "Supplì Cacio & Pepe",
+        "price": "4.00€",
+        "price2": "",
+        "description": "Palline di riso fritte ripiene di una crema di pecorino e pepe nero.",
+        "allergens": ["Glutine", "Latticini"]
+      },
+      {
+        "id": "starter-3",
+        "product_name": "Crocchette di Patate e Provola",
+        "price": "3.50€",
+        "price2": "",
+        "description": "Crocchette di patate fritte ripiene di provola fusa, una delizia perfetta per uno spuntino o un abbinamento.",
+        "allergens": ["Glutine", "Latticini"]
+      },
+      {
+        "id": "starter-4",
+        "product_name": "Frittata di Pasta",
+        "price": "4.00€",
+        "price2": "",
+        "description": "Pasta fritta con besciamella, piselli e prosciutto.",
+        "allergens": ["Glutine", "Latticini", "Uova", "Carne"]
+      },
+      {
+        "id": "starter-5",
+        "product_name": "Fiore di Zucchina con Ricotta e Scamorza",
+        "price": "7.00€",
+        "price2": "",
+        "description": "Fiore di zucchina fritto ripieno di ricotta e scamorza.",
+        "allergens": ["Glutine", "Latticini"]
+      },
+      {
+        "id": "starter-6",
+        "product_name": "Piatto Misto Fritto Italiano",
+        "price": "30.00€",
+        "price2": "",
+        "description": "Supplì x2, cacio & pepe x2, crocchette x2, pasta fritta x2, fiore di zucchina x2.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      }
+    ],
+  
+    "Filetti di pollo": [
+      {
+        "id": "chicken-1",
+        "product_name": "Barbecue",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Possibili tracce di glutine"]
+      },
+      {
+        "id": "chicken-2",
+        "product_name": "Mayo al Tartufo e Parmigiano",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Uova"]
+      },
+      {
+        "id": "chicken-3",
+        "product_name": "Miele e Senape",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Senape"]
+      },
+      {
+        "id": "chicken-4",
+        "product_name": "Bacon, Mayo e Formaggio",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Uova", "Carne"]
+      },
+      {
+        "id": "chicken-5",
+        "product_name": "Cacio & Pepe",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Glutine"]
+      }
+    ],
+  
+    "Smash Burgers": [
+      {
+        "id": "burger-1",
+        "product_name": "Carbo Smash",
+        "price": "11.50€",
+        "price2": "Doppia carne 14.00€",
+        "description": "Pane al carbone, hamburger di carne maturata, doppio formaggio americano, crema di carbone, guanciale a dadini, pecorino grattugiato.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      },
+      {
+        "id": "burger-2",
+        "product_name": "The King",
+        "price": "9.50€",
+        "price2": "Doppia carne 12.50€",
+        "description": "Hamburger di carne maturata, lattuga, doppio formaggio americano, pomodoro, cetriolini e salsa speciale.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      },
+      {
+        "id": "burger-3",
+        "product_name": "Oklahoma",
+        "price": "8.50€",
+        "price2": "Doppia carne 11.50€",
+        "description": "Hamburger schiacciato con cipolla, doppio formaggio americano, cetriolini e salsa speciale.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      },
+      {
+        "id": "burger-4",
+        "product_name": "Bacon & Bacon",
+        "price": "9.00€",
+        "price2": "Doppia carne 12.00€",
+        "description": "Hamburger con cipolla caramellata, bacon, marmellata di bacon, formaggio americano e formaggio Edam.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      },
+      {
+        "id": "burger-5",
+        "product_name": "L'Italiano",
+        "price": "8.50€",
+        "price2": "Doppia carne 11.50€",
+        "description": "Hamburger maturato, formaggio provolone, valeriana, salsa vinaigrette, pomodoro secco e salsa speciale.",
+        "allergens": ["Glutine", "Latticini"]
+      },
+      {
+        "id": "burger-6",
+        "product_name": "Bello de Nonna",
+        "price": "11.00€",
+        "price2": "Doppia carne 14.00€",
+        "description": "Hamburger di manzo maturato, scamorza, melanzane fritte con salsa di pomodoro e tortilla di pasta.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      },
+      {
+        "id": "burger-7",
+        "product_name": "Veggie Smashy",
+        "price": "8.50€",
+        "price2": "",
+        "description": "Polpetta di ceci fatta in casa, insalata fresca, pomodori succosi e formaggio filante, il tutto completato con una gustosa salsa speciale.",
+        "allergens": ["Latticini"]
+      }
+    ],
+  
+    "Patatine fritte": [
+      {
+        "product_name": "Patatine Fritte",
+        "price": "2.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Possibili tracce di glutine"]
+      },
+      {
+        "product_name": "Patatine Bacon e Formaggio",
+        "price": "5.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Carne"]
+      },
+      {
+        "product_name": "Patatine Messicane",
+        "price": "5.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Possibili tracce di glutine"]
+      },
+      {
+        "product_name": "Patatine al Tartufo e Parmigiano",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Uova"]
+      }
+    ],
+  
+    "Pasta fresca": [
+      {
+        "product_name": "Tonnarelli all’Amatriciana",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Tonnarelli freschi fatti in casa serviti con una classica salsa Amatriciana fatta con pomodori, pecorino e guanciale.",
+        "allergens": ["Glutine", "Latticini", "Carne"]
+      },
+      {
+        "product_name": "Tonnarelli alla Carbonara",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Pasta fresca fatta in casa servita con una cremosa salsa carbonara a base di uova, pecorino, guanciale e pepe nero.",
+        "allergens": ["Glutine", "Latticini", "Uova", "Carne"]
+      },
+      {
+        "product_name": "Casarecce Pesto alla Genovese",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Casarecce fatte in casa con pesto alla genovese, fatto con basilico fresco, pinoli, aglio, parmigiano e olio d'oliva.",
+        "allergens": ["Glutine", "Frutta a guscio", "Latticini"]
+      },
+      {
+        "product_name": "Tonnarelli Pomodoro e Basilico",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Goditi i nostri deliziosi tonnarelli fatti in casa serviti con una gustosa salsa di pomodoro e basilico.",
+        "allergens": ["Glutine"]
+      },
+      {
+        "product_name": "Fettuccine al Ragù Bolognese",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Le nostre fettuccine sono fresche e fatte in casa, perfettamente tenere, e si combinano meravigliosamente con il nostro ricco ragù alla bolognese.",
+        "allergens": ["Glutine", "Carne"]
+      },
+      {
+        "product_name": "Gnocchi alla Sorrentina",
+        "price": "11.00€",
+        "price2": "",
+        "description": "Delizia te stesso con i nostri deliziosi gnocchi di patate fatti in casa, serviti con una tradizionale salsa alla sorrentina.",
+        "allergens": ["Glutine", "Latticini"]
+      }
+    ],
+  
+    "Dolci": [
+      {
+        "product_name": "Tiramisù",
+        "price": "5.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Uova", "Glutine"]
+      },
+      {
+        "product_name": "Cannolo Siciliano",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Glutine"]
+      },
+      {
+        "product_name": "Brownie Americano",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Glutine", "Frutta a guscio"]
+      },
+      {
+        "product_name": "Cheesecake",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini", "Glutine"]
+      },
+      {
+        "product_name": "Cappuccino",
+        "price": "2.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini"]
+      },
+      {
+        "product_name": "Espresso",
+        "price": "1.20€",
+        "price2": "",
+        "description": "",
+        "allergens": []
+      },
+      {
+        "product_name": "Americano",
+        "price": "2.00€",
+        "price2": "",
+        "description": "",
+        "allergens": []
+      },
+      {
+        "product_name": "Cortado",
+        "price": "1.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Latticini"]
+      }
+    ]
+  }
+  

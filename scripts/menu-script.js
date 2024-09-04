@@ -32,7 +32,9 @@ function generateMenu(menu) {
       menu[category].forEach(product => {
           categoryHTML += `
             <div class="d-flex position-relative mt-3">
-              <img src="./assets/${product.id}.jpg" class="flex-shrink-0 me-3" alt="${product.product_name}">
+              
+               <!-- <img src="./assets/${product.id}.jpg" class="flex-shrink-0 me-3" alt="${product.product_name}"> -->
+
               <div>
                 <h5 class="product-name mt-0">${product.product_name}</h5>
                 <p class="product-description">${product.description}</p>

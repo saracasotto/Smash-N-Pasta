@@ -1,0 +1,290 @@
+{
+    "Entrantes": [
+      {
+        "id": "starter-1",
+        "product_name": "Supplì Clásico",
+        "price": "3.50€",
+        "price2": "",
+        "description": "Bolas de arroz fritas con salsa ragú de carne, tomate y relleno de mozzarella.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      },
+      {
+        "id": "starter-2",
+        "product_name": "Supplì Cacio & Pepe",
+        "price": "4.00€",
+        "price2": "",
+        "description": "Bolas de arroz fritas rellenas de una mezcla cremosa de queso pecorino y pimienta negra.",
+        "allergens": ["Gluten", "Lácteos"]
+      },
+      {
+        "id": "starter-3",
+        "product_name": "Croquetas de Papa y Provola",
+        "price": "3.50€",
+        "price2": "",
+        "description": "Croquetas de papa fritas rellenas de queso provola derretido, una delicia perfecta para merendar o acompañar.",
+        "allergens": ["Gluten", "Lácteos"]
+      },
+      {
+        "id": "starter-4",
+        "product_name": "Tortilla de Pasta",
+        "price": "4.00€",
+        "price2": "",
+        "description": "Pasta frita con salsa bechamel, guisantes y jamón.",
+        "allergens": ["Gluten", "Lácteos", "Huevos", "Carne"]
+      },
+      {
+        "id": "starter-5",
+        "product_name": "Flor de Calabacín con Ricotta y Scamorza",
+        "price": "7.00€",
+        "price2": "",
+        "description": "Flor de calabacín frita rellena de ricotta y queso scamorza.",
+        "allergens": ["Gluten", "Lácteos"]
+      },
+      {
+        "id": "starter-6",
+        "product_name": "Plato Mixto Frito Italiano",
+        "price": "30.00€",
+        "price2": "",
+        "description": "Supplì x2, cacio & pepe x2, croquetas x2, pasta frita x2, flor de calabacín x2.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      }
+    ],
+  
+    "Tiras de pollo": [
+      {
+        "id": "chicken-1",
+        "product_name": "Barbacoa",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Posibles trazas de gluten"]
+      },
+      {
+        "id": "chicken-2",
+        "product_name": "Mayo de Trufa y Parmesano",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Huevos"]
+      },
+      {
+        "id": "chicken-3",
+        "product_name": "Miel y Mostaza",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Mostaza"]
+      },
+      {
+        "id": "chicken-4",
+        "product_name": "Tocino, Mayo y Queso",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Huevos", "Carne"]
+      },
+      {
+        "id": "chicken-5",
+        "product_name": "Cacio & Pepe",
+        "price": "7.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Gluten"]
+      }
+    ],
+  
+    "Smash Burgers": [
+      {
+        "id": "burger-1",
+        "product_name": "Carbo Smash",
+        "price": "11.50€",
+        "price2": "Doble carne 14.00€",
+        "description": "Pan de carbón, hamburguesa de carne madurada, doble queso americano, crema de carbón, guanciale en cubos, pecorino rallado.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      },
+      {
+        "id": "burger-2",
+        "product_name": "El Rey",
+        "price": "9.50€",
+        "price2": "Doble carne 12.50€",
+        "description": "Hamburguesa de carne madurada, lechuga, doble queso americano, tomate, pepinillos y salsa especial.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      },
+      {
+        "id": "burger-3",
+        "product_name": "Oklahoma",
+        "price": "8.50€",
+        "price2": "Doble carne 11.50€",
+        "description": "Hamburguesa aplastada con cebolla, doble queso americano, pepinillos y salsa especial.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      },
+      {
+        "id": "burger-4",
+        "product_name": "Tocino & Tocino",
+        "price": "9.00€",
+        "price2": "Doble carne 12.00€",
+        "description": "Hamburguesa con cebolla caramelizada, tocino, mermelada de tocino, queso americano y queso Edam.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      },
+      {
+        "id": "burger-5",
+        "product_name": "El Italiano",
+        "price": "8.50€",
+        "price2": "Doble carne 11.50€",
+        "description": "Hamburguesa madurada, queso provolone, rúcula, salsa vinagreta, tomate seco y salsa especial.",
+        "allergens": ["Gluten", "Lácteos"]
+      },
+      {
+        "id": "burger-6",
+        "product_name": "Abuelo Bello",
+        "price": "11.00€",
+        "price2": "Doble carne 14.00€",
+        "description": "Hamburguesa de ternera madurada, scamorza, berenjenas fritas con salsa de tomate y tortilla de pasta.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      },
+      {
+        "id": "burger-7",
+        "product_name": "Veggie Smashy",
+        "price": "8.50€",
+        "price2": "",
+        "description": "Hamburguesa de garbanzos casera, lechuga fresca, tomates jugosos y queso derretido, todo coronado con una sabrosa salsa especial.",
+        "allergens": ["Lácteos"]
+      }
+    ],
+  
+    "Papas fritas": [
+      {
+        "product_name": "Papas Fritas",
+        "price": "2.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Posibles trazas de gluten"]
+      },
+      {
+        "product_name": "Papas con Tocino y Queso",
+        "price": "5.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Carne"]
+      },
+      {
+        "product_name": "Papas Mexicanas",
+        "price": "5.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Posibles trazas de gluten"]
+      },
+      {
+        "product_name": "Papas con Trufa y Parmesano",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Huevos"]
+      }
+    ],
+  
+    "Pasta fresca": [
+      {
+        "product_name": "Tonnarelli a la Amatriciana",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Tonnarelli frescos hechos en casa servidos con una clásica salsa Amatriciana elaborada con tomates, queso pecorino y guanciale.",
+        "allergens": ["Gluten", "Lácteos", "Carne"]
+      },
+      {
+        "product_name": "Tonnarelli a la Carbonara",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Pasta fresca hecha en casa servida con una cremosa salsa carbonara a base de huevos, queso pecorino, guanciale y pimienta negra.",
+        "allergens": ["Gluten", "Lácteos", "Huevos", "Carne"]
+      },
+      {
+        "product_name": "Casarecce Pesto alla Genovese",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Casarecce hechos en casa con pesto alla genovese, elaborado con albahaca fresca, piñones, ajo, parmesano y aceite de oliva.",
+        "allergens": ["Gluten", "Frutos secos", "Lácteos"]
+      },
+      {
+        "product_name": "Tonnarelli Pomodoro y Albahaca",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Disfruta de nuestros deliciosos tonnarelli caseros servidos con una sabrosa salsa de tomate y albahaca.",
+        "allergens": ["Gluten"]
+      },
+      {
+        "product_name": "Fettuccine a la Boloñesa",
+        "price": "9.50€",
+        "price2": "",
+        "description": "Nuestros fettuccine frescos y caseros, perfectamente tiernos, se combinan maravillosamente con nuestra rica salsa boloñesa.",
+        "allergens": ["Gluten", "Carne"]
+      },
+      {
+        "product_name": "Ñoquis a la Sorrentina",
+        "price": "11.00€",
+        "price2": "",
+        "description": "Déjate deleitar por nuestros exquisitos ñoquis de papa hechos en casa, servidos con una tradicional salsa a la sorrentina.",
+        "allergens": ["Gluten", "Lácteos"]
+      }
+    ],
+  
+    "Desserts": [
+      {
+        "product_name": "Tiramisú",
+        "price": "5.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Huevos", "Gluten"]
+      },
+      {
+        "product_name": "Cannolo Siciliano",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Gluten"]
+      },
+      {
+        "product_name": "Brownie Americano",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Gluten", "Frutos secos"]
+      },
+      {
+        "product_name": "Tarta de Queso",
+        "price": "6.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos", "Gluten"]
+      },
+      {
+        "product_name": "Cappuccino",
+        "price": "2.00€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos"]
+      },
+      {
+        "product_name": "Espresso",
+        "price": "1.20€",
+        "price2": "",
+        "description": "",
+        "allergens": []
+      },
+      {
+        "product_name": "Americano",
+        "price": "2.00€",
+        "price2": "",
+        "description": "",
+        "allergens": []
+      },
+      {
+        "product_name": "Cortado",
+        "price": "1.50€",
+        "price2": "",
+        "description": "",
+        "allergens": ["Lácteos"]
+      }
+    ]
+  }
+  
