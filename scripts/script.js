@@ -90,3 +90,29 @@ function changeLanguage(lang) {
         })
         .catch(error => console.error('Error loading JSON:', error));
 }
+
+
+// navbar.js
+
+// Funzione per chiudere la navbar quando un link viene cliccato
+function closeNavbarOnClick() {
+    // Seleziona tutti i link della navbar
+    const links = document.querySelectorAll('.navbar-nav .nav-item');
+    
+    // Aggiungi un evento di clic a ciascun link
+    links.forEach(link => {
+      link.addEventListener('click', function() {
+        // Trova il toggler e la navbar
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        const navbarCollapse = document.getElementById('navbarNav');
+  
+        // Chiudi la navbar se è aperta
+        if (navbarCollapse.classList.contains('show')) {
+          navbarToggler.click();
+        }
+      });
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', closeNavbarOnClick);
+  

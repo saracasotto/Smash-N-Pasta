@@ -233,7 +233,9 @@ button.back-to-top {
         height: 500px;
     }
 
-    .hero-container h1, 
+    .hero-container h1 {
+        font-size: 2em;
+    } 
     .hero-container button{
         font-size: 1em;
     }
@@ -248,7 +250,7 @@ button.back-to-top {
     }
 
     footer {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
 }
@@ -306,7 +308,7 @@ footer {
 
 #open_preferences_center {
     position: absolute;
-    bottom: 3px;
+    bottom: 2%;
     left: 0;
     width: 100%;
 }
