@@ -133,7 +133,8 @@ button {
 
 footer {
     height: 20vh;
-    color: var(--links);    font-size: 1.3em;
+    color: var(--links);    
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,6 +153,16 @@ footer p:first-of-type{
     font-size: 1.6em;
 
 }
+
+footer a {
+    font-size: 0.5em;
+    color: var(--links);
+}
+
+footer span {
+    margin: 0 0.5em;
+}
+
 
 .menu-container {
     padding-top: 15vh;
@@ -264,4 +275,38 @@ button.back-to-top {
     footer {
         font-size: 0.8em;
     }
+}
+
+
+#privacy-policy {
+    padding: 2em;
+}
+
+#privacy-policy a {
+    color: var(--main);
+}
+
+.freeprivacypolicy-com---palette-dark.freeprivacypolicy-com---nb {
+    bottom: 0 !important;
+    height: auto;
+    top: auto;
+}
+
+
+.freeprivacypolicy-com---palette-dark .cc-nb-okagree,
+.freeprivacypolicy-com---palette-dark .cc-nb-reject,
+.freeprivacypolicy-com---palette-dark .cc-cp-foot-save  {
+    background-color: var(--main) !important;
+    color: var(--links);
+}
+
+footer {
+    position: relative;
+}
+
+#open_preferences_center {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
 }
