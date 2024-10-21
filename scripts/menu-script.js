@@ -49,3 +49,37 @@ function generateMenu(menu) {
       menuContainer.innerHTML += categoryHTML;
   }
 }
+
+document.getElementById("español").addEventListener("click", function () {
+  changeLanguage("es");
+});
+
+document.getElementById("english").addEventListener("click", function () {
+  changeLanguage("en");
+});
+
+document.getElementById("italiano").addEventListener("click", function () {
+  changeLanguage("it");
+});
+
+function changeLanguage(lang) {
+  const navJsonFile = `./data/${lang}.json`;
+  const menuJsonFile = `./data/menu-${lang}.json`;
+
+  Promise.all([
+      fetch(navJsonFile).then(response => response.json()),
+      fetch(menuJsonFile).then(response => response.json())
+  ])
+  .then(([navData, menuData]) => {
+      const navItems = document.querySelectorAll(".nav-link");
+      navItems[0].textContent = navData.navHome;
+
+      // Rimuovere il contenuto precedente del menu
+      document.getElementById('menu').innerHTML = '';
+      document.getElementById('menu-list').innerHTML = '';
+
+      // Rigenerare il menu con i nuovi dati
+      generateMenu(menuData);
+  })
+  .catch(error => console.error('Error loading data:', error));
+}
